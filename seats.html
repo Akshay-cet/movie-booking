@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Select Seats</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+<div class="poster">
+<img id="poster">
+<h2 id="movieTitle"></h2>
+</div>
+
+<div class="seat-section">
+
+<div class="screen">SCREEN</div>
+
+<div class="legend">
+<span class="box available"></span> Available
+<span class="box selected"></span> Selected
+<span class="box booked"></span> Occupied
+</div>
+
+<h3>Platinum (₹200)</h3>
+<div id="platinum"></div>
+
+<h3>Gold (₹160)</h3>
+<div id="gold"></div>
+
+<h3>Economy (₹100)</h3>
+<div id="economy"></div>
+
+<p>Seats: <span id="count">0</span></p>
+
+<button onclick="goToBooking()">Confirm</button>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
